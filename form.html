@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <h1><b><u>Fill the form</u></b></h1>
+    <hr>
+    <form action="thankyou.html" method=""get>
+        <div>
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username" placeholder="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" maxlength=“8” required>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" min="01-01-1900"><br>
+            <p><b><i>FOOD TYPE</i></b></p>
+        
+            <input type="checkbox" name="Veg" id="Veg">
+            <label for="Veg">Veg</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Nonveg" id="Nonveg">
+            <label for="Nonveg">Non veg</label>
+        </div>
+        <div>
+            <p><b><i>GENDER</i></b></p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+         <div>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label><br>
+        </div>
+        <div>
+            <p><b><i>ABOUT YOURSELF</i></b></p>
+            <label for="about">About</label>
+            <textarea name="about" id="about" cols="20" rows="5">
+            </textarea>
+        </div>
+        <div>
+            <p><b><i>CITY</i></b></p>
+        <select>
+            <option value="Aurangabad">Aurangabad</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Solapur">Solapur</option>
+        </select>
+        </div>
+        <div>
+            <p><b><i>FILE UPLOAD</i></b></p>
+            <label for="file">Resume</label>
+            <input type="file" name="file" id="file">
+        </div><br>
+        </div>
+        <button type="submit">Sign up</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
